@@ -21,9 +21,6 @@
     <ClCompile Include="umd5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="yyjson.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="file_version_queue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -39,12 +36,12 @@
     <ClCompile Include="fileversioninfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="autoupdate_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="umd5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="yyjson.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="file_version_queue.h">
@@ -63,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fileversioninfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="autoupdate_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

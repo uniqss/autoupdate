@@ -9,8 +9,9 @@
 #include <vector>
 #include <string>
 
-int readFileList(const char* basePath, std::vector<std::string>* vecRetNoPath = nullptr,
-                 std::vector<std::string>* vecRetWithPath = nullptr);
+
+int readFileList(const char* basePath, std::vector<std::pair<bool, std::string>>* vecRetNoPath,
+                 std::vector<std::pair<bool, std::string>>* vecRetWithPath);
 bool isPathAbsWin(const std::string& path);
 int makeDir(const char* path);
 int makeDir(const std::string& path);

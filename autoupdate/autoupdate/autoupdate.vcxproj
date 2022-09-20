@@ -137,6 +137,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="autoupdate_config.cpp" />
     <ClCompile Include="dirhelper.cpp" />
     <ClCompile Include="dir_updater.cpp" />
     <ClCompile Include="fileversioninfo.cpp" />
@@ -144,9 +145,9 @@
     <ClCompile Include="http_helper.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="umd5.cpp" />
-    <ClCompile Include="yyjson.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="autoupdate_config.h" />
     <ClInclude Include="dirhelper.h" />
     <ClInclude Include="dir_updater.h" />
     <ClInclude Include="fileversioninfo.h" />
@@ -154,7 +155,6 @@
     <ClInclude Include="HTTPRequest.hpp" />
     <ClInclude Include="http_helper.h" />
     <ClInclude Include="umd5.h" />
-    <ClInclude Include="yyjson.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

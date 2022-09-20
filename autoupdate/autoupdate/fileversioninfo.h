@@ -16,4 +16,10 @@ struct FileVersionUpdateInfo {
     std::vector<FileVersionInfo> add;
     std::vector<FileVersionInfo> update;
     std::vector<FileVersionInfo> del;
+
+    void clear() {
+        add.clear();
+        update.clear();
+        del.clear();
+    }
 };
